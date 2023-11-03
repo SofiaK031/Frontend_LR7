@@ -57,7 +57,7 @@ body { display: flex; }
 #ball {
   width: 100%;
   height: 100%;
-  background: url('magic_ball.png');
+  background: url('../css/magic_ball.png');
   filter: drop-shadow(5px 4px 10px #37114a) drop-shadow(-5px -4px 10px #37114a);
 }
 
