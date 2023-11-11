@@ -6,7 +6,7 @@ html, body {
     min-height: 400px;
     margin: 0px;
     padding: 0px;
-    background: url('./images/pic1.jpg') no-repeat center center fixed;
+    background: url('images/pic1.jpg') no-repeat center center fixed;
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -19,14 +19,8 @@ body { display: flex; }
   width: 50%;
   height: 90%;
   border: 2px solid;
-  /*border-image-source: linear-gradient(45deg, #00ecf8, #7bff00);
-  box-shadow: -7px 5px 20px #7bff00, 7px -5px 20px #00ecf8;*/
-
   border-image-source: linear-gradient(50deg, #db3bff, #ff007b);
   box-shadow: -7px 5px 20px #ff007b, 7px -5px 20px #db3bff;
-
-  /*border-image: linear-gradient(20deg, #db3bff 38%, #ff007b 65%);
-  border-image-slice: 1;*/
   border-image-slice: 1;
 }
 
